@@ -1,0 +1,50 @@
+a {
+	display: block;
+	height: 100%;
+	width: auto;
+	color: #ffffff;
+}
+a:hover {
+	color: #ffffff;
+	cursor: pointer;
+}
+a:focus {
+	color: #ffffff;
+	text-decoration: none;
+}
+.header-bg {
+	background-image: url("../src/header.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 951px;
+	position: relative;
+	.side-text {
+		position: absolute;
+		width: 148px;
+		height: 12px;
+		left: 1px;
+		top: 47.84437434279705573080967402734%;
+		text-transform: uppercase;
+		transform: rotate(-90deg);
+		font-family: 'Open-Sans', sans-serif;
+		font-weight: 400;
+		font-size: 12px;
+		color: #ffffff;
+		line-height: 12px;
+	}
+		.side-text .perfect {
+			opacity: 0.6;
+			float: left;
+
+		}
+		.side-text .url {
+			float: right;
+		}
+	.logo {
+		height: 153px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5OCIgaGVpZ2h0PSI0NSIgdmlld0JveD0iMCAwIDk4IDQ1Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmb250LXNpemU6IDI0cHg7CiAgICAgICAgZm9udC1mYW1pbHk6IE1lcnJpd2VhdGhlcjsKICAgICAgICBmb250LXdlaWdodDogODAwOwogICAgICAgIGZvbnQtc3R5bGU6IGl0YWxpYzsKICAgICAgfQoKICAgICAgLmNscy0xLCAuY2xzLTIgewogICAgICAgIGZpbGw6ICNmZmY7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgZmlsbC1ydWxlOiBldmVub2RkOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8ZyBpZD0iTG9nbyI+CiAgICA8dGV4dCBpZD0idGFrZSIgY2xhc3M9ImNscy0xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MC4wODggMjYuNTUyKSBzY2FsZSgwLjg3MyAwLjg2NykiPnRha2U8L3RleHQ+CiAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik03MDQuNSw0MTJBMjAuNSwyMC41LDAsMSwwLDcyNSw0MzIuNSwyMC41MjUsMjAuNTI1LDAsMCwwLDcwNC41LDQxMlptMCwzNy44MzVBMTcuMzM0LDE3LjMzNCwwLDEsMSw3MjEuODM0LDQzMi41LDE3LjM1NCwxNy4zNTQsMCwwLDEsNzA0LjUsNDQ5LjgzNFptMC0yNS4yMjNhNy44ODksNy44ODksMCwxLDAsNy44ODksNy44ODlBNy45LDcuOSwwLDAsMCw3MDQuNSw0MjQuNjExWm0wLDEyLjYxMWE0LjcyMiw0LjcyMiwwLDEsMSw0LjcyMi00LjcyMkE0LjcyOCw0LjcyOCwwLDAsMSw3MDQuNSw0MzcuMjIyWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY4MSAtNDEwKSIvPgogIDwvZz4KPC9zdmc+Cg==);
+		background-position: 1px center;
+	}
+}
