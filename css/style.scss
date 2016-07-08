@@ -22,32 +22,8 @@ a:focus {
 	background-repeat: no-repeat;
 	height: 951px;
 	position: relative;
-	.side-text {
-		position: absolute;
-		width: 148px;
-		height: 12px;
-		left: 1px;
-		top: 47.84437434279705573080967402734%;
-		text-transform: uppercase;
-		transform: rotate(-90deg);
-		font-weight: 400;
-		font-size: 12px;
-		color: #ffffff;
-		line-height: 12px;
-	}
-		.side-text .perfect {
-			opacity: 0.6;
-			float: left;
-
-		}
-		.side-text .url {
-			float: right;
-		}
 	.header-inner {
 		position: relative;
-	}
-	.header-row {
-		margin: 0;
 	}
 	.logo {
 		position: absolute;
