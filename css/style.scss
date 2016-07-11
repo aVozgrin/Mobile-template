@@ -1,17 +1,6 @@
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #ffffff;
-	position: relative;
-}
-.phone{
-	position: absolute;
-	right: 31px;
-	top: 261px;
-	height: 913px;
-	width: 623px;
-	background-image: url("../src/phone.png");
-	background-repeat: no-repeat;
-	z-index: 100;
 }
 .row {
 	margin: 0;
@@ -32,13 +21,24 @@ a:focus {
 }
 .header-outer {
 	z-index: 10;
-	background-image: url("../src/header.png");
+	background-image: url("../src/header-bg.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
 	height: 951px;
 	position: relative;
 	.header-inner {
 		position: relative;
+		z-index: 1;
+	}
+	.phone{
+		position: absolute;
+		right: 31px;
+		top: 261px;
+		height: 913px;
+		width: 623px;
+		background-image: url("../src/phone.png");
+		background-repeat: no-repeat;
+		z-index: 100;
 	}
 	.logo {
 		position: absolute;
