@@ -1,6 +1,8 @@
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 a {
 	display: block;
@@ -87,6 +89,9 @@ a:focus {
 .menu-container {
 	height: 556px;
 }
+.middle-article {
+	margin-bottom: 160px;
+}
 .middle-main-title {
 	margin: 45px 0;
 	font-size: 35px;
@@ -134,4 +139,24 @@ a:focus {
 }
 .test {
 	visibility: hidden;
+}
+.footer-bg-2-article {
+	color: #ffffff;
+	.footer-bg-2-title{
+		padding: 60px 0 60px 0;
+		font-size: 35px;
+		font-weight: 300;
+	}
+	.footer-title-2 {
+		font-size: 13px;
+		font-weight: 600;
+	}
+	.footer-description-2 {
+		padding: 30px 0;
+		font-size: 14px;
+		font-weight: 400;
+	}
+}
+.footer-bg-2-article {
+	margin: 67px 0 167px 0;
 }
